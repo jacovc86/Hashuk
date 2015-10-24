@@ -1,0 +1,72 @@
+
+* {
+  margin: 0px;
+  padding:0px;
+}
+.facebook {
+  background: #2853B8 !important;
+  color: #fff;
+  font-weight:bold;
+  text-align: center;
+}
+.google {
+  background: #D1250A !important;
+  color: #fff;
+  font-weight:bold;
+  text-align: center;
+}
+.twitter {
+  background: #469CF2 !important;
+  color: #fff;
+  font-weight:bold;
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.toolbar {
+  background: #1983A6;
+  padding-top: 0.5em;
+}
+.btn {
+  border-radius: 0px;
+}
+input.login {
+  border:none;
+  border-bottom: 2px #333 solid;
+  border-radius: 0px;
+  opacity: 0.4;
+  font-weight:bold;
+}
+button.login {
+  font-weight:bold;
+  border:none;
+  border-bottom: 2px #333 solid;
+  border-left: 1px #333 solid;
+  background: #48B7DB;
+}
+button.logout {
+  width:1.5em;
+  height:1.5em;
+  background: #BA0F0F;
+  border-radius: 50%;
+  padding:0.2em;
+}
+.userinfo {
+  vertical-align: bottom;
+  display:inline;
+  color: #666;
+  font-weight:bold;
+}
+#placeholder-image {
+  width: 95%;
+  max-height: 90vh;
+  position:absolute;
+  opacity: 0.5;
+}
+.panel {
+  display:inline-block;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}

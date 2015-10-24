@@ -1,0 +1,14 @@
+<div ng-show="authData" class="container">
+	<h1>{{hebrew.account_title}}</h1>
+	<img widht="100" height="100" ng-src="{{authData[authData.provider].profileImageURL}}"/>
+	<span class="username">{{authData[authData.provider].displayName}}</span>
+</div>
+<div ng-hide="authData" class="container">
+	<h1>{{hebrew.create_account_title}}</h1>
+</div>
+
+//TODO
+<h2>Activated User: -- This is the Account Settings</h2>
+<h4>The user can upload image, change username and password, change displayName, see his latest publishes
+<h2>Non-Activated User: -- This is the Create Account Page</h2>
+<h4>The user need to fill a form, provide email, username, password, and so on
